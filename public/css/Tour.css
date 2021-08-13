@@ -1,0 +1,32 @@
+.mda-box-top {
+    font-size: 14px;
+    background-color: #f6f6f6;
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+.mda-box-top .mda-box-r {
+    
+    display: flex;
+    align-items: flex-start;
+}
+.mda-box-top .mda-box-r ul {
+    
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    flex-wrap: wrap;
+    list-style: none;
+}
+.mda-box-top .mda-box-r ul li {
+    text-transform: capitalize;
+    list-style: none;
+    float: right;
+    margin-right: 15px;
+    cursor: pointer;
+    text-align: left;
+}

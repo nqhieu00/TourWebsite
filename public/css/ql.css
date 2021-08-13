@@ -1,0 +1,70 @@
+.row{
+    background-color: #222;
+    color:white;
+}
+
+
+a{color:white;}
+a:hover{
+    color: #9d9d9d;
+    text-decoration: none;
+}
+.nav>li>a:hover {
+    text-decoration: none;
+    background-color:black;
+}
+
+.TOUR{
+    background-color: #222;
+    color: white ;
+    padding: 16px;
+    font-size: 15px;
+    border: none; 
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    color: black !important;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {background-color: #ddd;}
+.dropdown:hover .dropdown-content {display: block;}
+.content{
+    background-color: white;
+    color: black;
+    margin-right:30px;
+}
+table, th, td {
+  margin-top:100px;
+  margin-left:15px;
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+th, td {
+    padding: 15px;
+} 
+.glyphicon-pencil {
+    color:rgb(6, 60, 121);   
+}
+.glyphicon-trash{
+    color:rgb(6, 60, 121);   
+}
+.form-group{
+    margin :20px 50px 50px 50px;
+}
+h3{
+    text-align: center;
+    text-transform: uppercase;
+}

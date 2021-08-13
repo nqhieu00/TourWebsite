@@ -1,0 +1,127 @@
+.mda-tilte-3 .mda-tilte-name {
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+div.container{
+    margin-top: 52px;
+}
+.mda-tilte-3{
+    text-align: center;
+    padding: 20px;
+}
+.txtTotal span {
+    font-size: 20px;
+    line-height: 28px;
+    color: #ed0080;
+    font-weight: 600;
+    
+}
+.txtTotal{
+    text-align: right;
+}
+input[type="submit"]{
+    width: 150px;
+    font: 35px;
+    background: #ed0080;
+    color: #fff;
+    padding: 6px 10px;
+    border: none;
+    font-weight: 700;
+    -webkit-transition: all .3s linear;
+    -o-transition: all .3s linear;
+    transition: all .3s linear;
+}
+input[type="submit"]:hover{
+    background: #333;
+}
+footer{
+    background-color: #101010;
+    color: #fff;
+}
+footer a{
+    color: #fff;
+}
+footer a:hover{
+    text-decoration: none;
+    color: #ed0080;
+}
+footer .contact-icon{
+    text-align: center;
+}
+.scrollTop{
+    position: fixed;
+    bottom: 40px;
+    right: 30px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 100;
+    background:#fff ;
+    box-shadow: 0 0 10px rgba(0,0,0,.1);
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.4s;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size:20px;
+    text-decoration:none;
+}
+.scrollTop.active{
+    bottom: 40px;
+    visibility: visible;
+    opacity: 1;   
+}
+body, html {
+    font-family: Muli,sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+    color: #333;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.affix {
+    top: 0;
+    width: 100%;
+    z-index: 9999 !important;
+}
+.affix + .container-fluid {
+    padding-top: 70px;
+}
+.navbar.navbar-inverse.affix {
+    margin-bottom: 0px;
+    border-radius: 0px;
+} 
+
+#mda-tour .mda-info-caption {
+    overflow: hidden;
+    border: solid 1px rgba(0,0,0,.15);
+}
+#mda-tour .mda-info h2 {
+    padding: 15px 20px;
+    border-bottom: solid 1px rgba(0,0,0,.15);
+}
+#mda-tour .mda-info h2 a {
+    font-size: 20px;
+    color: #222;
+    font-weight: 700;
+    display: block;
+}
+#mda-tour .mda-info-list {
+    padding: 15px 20px 10px;
+}
+#mda-tour .mda-info-list .mda-row {
+    padding-left: 150px;
+    margin-bottom: 5px;
+    position: relative;
+}
+#mda-tour .mda-info-list .mda-row .be {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
